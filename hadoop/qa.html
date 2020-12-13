@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SSH 免密登录相关文件权限设置 | Hadoop</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Hadoop 学习笔记">
+    
+    <link rel="preload" href="/assets/css/0.styles.bea26999.css" as="style"><link rel="preload" href="/assets/js/app.7696aff8.js" as="script"><link rel="preload" href="/assets/js/2.3c301967.js" as="script"><link rel="preload" href="/assets/js/23.b9917a11.js" as="script"><link rel="prefetch" href="/assets/js/10.239320ff.js"><link rel="prefetch" href="/assets/js/11.7aea8a94.js"><link rel="prefetch" href="/assets/js/12.a75c9a92.js"><link rel="prefetch" href="/assets/js/13.17c333e6.js"><link rel="prefetch" href="/assets/js/14.c658bd9d.js"><link rel="prefetch" href="/assets/js/15.adf41b6f.js"><link rel="prefetch" href="/assets/js/16.d09250f7.js"><link rel="prefetch" href="/assets/js/17.3a4cbbc8.js"><link rel="prefetch" href="/assets/js/18.a7d27d96.js"><link rel="prefetch" href="/assets/js/19.3f563a7b.js"><link rel="prefetch" href="/assets/js/20.cf7aaa65.js"><link rel="prefetch" href="/assets/js/21.dabe57d5.js"><link rel="prefetch" href="/assets/js/22.8c1d8730.js"><link rel="prefetch" href="/assets/js/24.095af618.js"><link rel="prefetch" href="/assets/js/25.d294f37a.js"><link rel="prefetch" href="/assets/js/26.fc764424.js"><link rel="prefetch" href="/assets/js/27.998a5d50.js"><link rel="prefetch" href="/assets/js/28.7d6e20a5.js"><link rel="prefetch" href="/assets/js/29.d2921661.js"><link rel="prefetch" href="/assets/js/3.566e47d9.js"><link rel="prefetch" href="/assets/js/4.23282b51.js"><link rel="prefetch" href="/assets/js/5.c842d990.js"><link rel="prefetch" href="/assets/js/6.ef414eb3.js"><link rel="prefetch" href="/assets/js/7.3152689a.js"><link rel="prefetch" href="/assets/js/8.530be27e.js"><link rel="prefetch" href="/assets/js/9.a4f965b7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bea26999.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-navbar no-sidebar"><!----> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/hadoop/install.html" class="nav-link">
+  Hadoop
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/hadoop/install.html" class="sidebar-link">安装</a></li><li><a href="/hadoop/benchmark.html" class="sidebar-link">集群配置与管理</a></li><li><a href="/hadoop/hdfs.html" class="sidebar-link">HDFS</a></li><li><a href="/hadoop/io.html" class="sidebar-link">Hadoop I/O</a></li><li><a href="/hadoop/mapreduce.html" class="sidebar-link">MapReduce</a></li><li><a href="/hadoop/mysql.html" class="sidebar-link">MySQL</a></li><li><a href="/hadoop/sqoop.html" class="sidebar-link">Sqoop</a></li><li><a href="/hadoop/hive.html" class="sidebar-link">Hive</a></li><li><a href="/hadoop/hbase.html" class="sidebar-link">HBase</a></li><li><a href="/hadoop/pig.html" class="sidebar-link">Pig</a></li><li><a href="/hadoop/spark.html" class="sidebar-link">Spark</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="ssh-免密登录相关文件权限设置"><a href="#ssh-免密登录相关文件权限设置" class="header-anchor">¶</a> SSH 免密登录相关文件权限设置</h3> <ol><li><code>.ssh</code> 目录本身的权限设为 755</li> <li><code>.ssh</code> 目录下的各文件权限为：</li></ol> <div class="language- line-numbers-mode"><pre class="language-text"><code>-rw-r--r--  1 hadoop hadoop  402 2020-10-23 09:47 authorized_keys
+-rw-------  1 hadoop hadoop 1675 2020-10-23 09:43 id_rsa
+-rw-r--r--  1 hadoop hadoop  402 2020-10-23 09:43 id_rsa.pub
+-rw-------  1 hadoop hadoop 3094 2020-10-23 10:34 known_hosts
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.7696aff8.js" defer></script><script src="/assets/js/2.3c301967.js" defer></script><script src="/assets/js/23.b9917a11.js" defer></script>
+  </body>
+</html>

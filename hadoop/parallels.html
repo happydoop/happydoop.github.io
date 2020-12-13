@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Parallels Desktop 安装 CentOS | Hadoop</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Hadoop 学习笔记">
+    
+    <link rel="preload" href="/assets/css/0.styles.bea26999.css" as="style"><link rel="preload" href="/assets/js/app.7696aff8.js" as="script"><link rel="preload" href="/assets/js/2.3c301967.js" as="script"><link rel="preload" href="/assets/js/21.dabe57d5.js" as="script"><link rel="preload" href="/assets/js/11.7aea8a94.js" as="script"><link rel="prefetch" href="/assets/js/10.239320ff.js"><link rel="prefetch" href="/assets/js/12.a75c9a92.js"><link rel="prefetch" href="/assets/js/13.17c333e6.js"><link rel="prefetch" href="/assets/js/14.c658bd9d.js"><link rel="prefetch" href="/assets/js/15.adf41b6f.js"><link rel="prefetch" href="/assets/js/16.d09250f7.js"><link rel="prefetch" href="/assets/js/17.3a4cbbc8.js"><link rel="prefetch" href="/assets/js/18.a7d27d96.js"><link rel="prefetch" href="/assets/js/19.3f563a7b.js"><link rel="prefetch" href="/assets/js/20.cf7aaa65.js"><link rel="prefetch" href="/assets/js/22.8c1d8730.js"><link rel="prefetch" href="/assets/js/23.b9917a11.js"><link rel="prefetch" href="/assets/js/24.095af618.js"><link rel="prefetch" href="/assets/js/25.d294f37a.js"><link rel="prefetch" href="/assets/js/26.fc764424.js"><link rel="prefetch" href="/assets/js/27.998a5d50.js"><link rel="prefetch" href="/assets/js/28.7d6e20a5.js"><link rel="prefetch" href="/assets/js/29.d2921661.js"><link rel="prefetch" href="/assets/js/3.566e47d9.js"><link rel="prefetch" href="/assets/js/4.23282b51.js"><link rel="prefetch" href="/assets/js/5.c842d990.js"><link rel="prefetch" href="/assets/js/6.ef414eb3.js"><link rel="prefetch" href="/assets/js/7.3152689a.js"><link rel="prefetch" href="/assets/js/8.530be27e.js"><link rel="prefetch" href="/assets/js/9.a4f965b7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bea26999.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-navbar no-sidebar"><!----> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/hadoop/install.html" class="nav-link">
+  Hadoop
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/hadoop/install.html" class="sidebar-link">安装</a></li><li><a href="/hadoop/benchmark.html" class="sidebar-link">集群配置与管理</a></li><li><a href="/hadoop/hdfs.html" class="sidebar-link">HDFS</a></li><li><a href="/hadoop/io.html" class="sidebar-link">Hadoop I/O</a></li><li><a href="/hadoop/mapreduce.html" class="sidebar-link">MapReduce</a></li><li><a href="/hadoop/mysql.html" class="sidebar-link">MySQL</a></li><li><a href="/hadoop/sqoop.html" class="sidebar-link">Sqoop</a></li><li><a href="/hadoop/hive.html" class="sidebar-link">Hive</a></li><li><a href="/hadoop/hbase.html" class="sidebar-link">HBase</a></li><li><a href="/hadoop/pig.html" class="sidebar-link">Pig</a></li><li><a href="/hadoop/spark.html" class="sidebar-link">Spark</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="parallels-desktop-安装-centos"><a href="#parallels-desktop-安装-centos" class="header-anchor">¶</a> Parallels Desktop 安装 CentOS</h1> <p>添加新的虚拟机↓
+<img src="/images/hadoop/pd.png" width="100%" height="auto" loading="lazy" alt="Parallels Desktop" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+选择新建类型↓
+<img src="/images/hadoop/pd-step1.png" width="100%" height="auto" loading="lazy" alt="第一步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+选择镜像↓
+<img src="/images/hadoop/pd-step2.png" width="100%" height="auto" loading="lazy" alt="第二步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+取消快速安装↓
+<img src="/images/hadoop/pd-step3.png" width="100%" height="auto" loading="lazy" alt="第三步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+设置 Linux 名称和虚拟机安装位置↓
+<img src="/images/hadoop/pd-step4.png" width="100%" height="auto" loading="lazy" alt="第四步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46></p> <h3 id="开始安装↓"><a href="#开始安装↓" class="header-anchor">¶</a> 开始安装↓</h3> <p>此时鼠标会被虚拟机捕获，不能在 Mac 中使用，可以使用 Ctrl + Alt 键释放。
+<img src="/images/hadoop/pd-step5.png" width="100%" height="auto" loading="lazy" alt="第五步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+选择安装过程中使用的语言↓
+<img src="/images/hadoop/pd-step6.png" width="100%" height="auto" loading="lazy" alt="第六步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+选择 Linux 的安装位置↓
+<img src="/images/hadoop/pd-step7.png" width="100%" height="auto" loading="lazy" alt="第七步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46> <img src="/images/hadoop/pd-step8.png" width="100%" height="auto" loading="lazy" alt="第八步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+设置 Linux 网络↓
+<img src="/images/hadoop/pd-step9.png" width="100%" height="auto" loading="lazy" alt="第九步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46> <img src="/images/hadoop/pd-step10.png" width="100%" height="auto" loading="lazy" alt="第十步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46> <img src="/images/hadoop/pd-step11.png" width="100%" height="auto" loading="lazy" alt="第十一步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+正式开始安装↓
+<img src="/images/hadoop/pd-step12.png" width="100%" height="auto" loading="lazy" alt="第十二步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+设置用户↓
+<img src="/images/hadoop/pd-step13.png" width="100%" height="auto" loading="lazy" alt="第十三步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+设置 root 账号密码↓
+<img src="/images/hadoop/pd-step14.png" width="100%" height="auto" loading="lazy" alt="第十四步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+添加新用户↓
+<img src="/images/hadoop/pd-step15.png" width="100%" height="auto" loading="lazy" alt="第十五步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+重启↓
+<img src="/images/hadoop/pd-step16.png" width="100%" height="auto" loading="lazy" alt="第十六步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46>
+登录↓
+<img src="/images/hadoop/pd-step17.png" width="100%" height="auto" loading="lazy" alt="第十七步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46></p> <p>接着，在菜单栏中选择 <em>操作</em> → ⚙<em>配置...</em> （或者在 Linux 虚拟机右上角单击齿轮图标）</p> <p>配置虚拟机的网络↓
+<img src="/images/hadoop/pd-step18.png" width="100%" height="auto" loading="lazy" alt="第十八步" style="display:block;margin:2.2rem auto;max-width:100%;" data-v-2d939f46></p> <p>默认就是 <em>共享网络</em> 。</p> <p>共享网络是 Parallels Desktop 提供的一种网络连接方式，它使得 Linux 虚拟机会共享 Mac 当前使用的网络。</p> <p>除此之外，还有桥接网络。此时虚拟机会被当作一台独立电脑连接网络。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.7696aff8.js" defer></script><script src="/assets/js/2.3c301967.js" defer></script><script src="/assets/js/21.dabe57d5.js" defer></script><script src="/assets/js/11.7aea8a94.js" defer></script>
+  </body>
+</html>
